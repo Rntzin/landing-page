@@ -23,7 +23,7 @@ function InvestmentSection() {
           meses.
         </p>
       </div>
-      <div>
+      <ContainerScroll titleComponent>
         <div className="mt-10 flex flex-col gap-4 text-center justify-center mx-auto">
           <div>
             <h1 className="text-secondary font-secondary text-4xl font-bold">
@@ -43,7 +43,7 @@ function InvestmentSection() {
             <Enrollment />
           </div>
         </div>
-      </div>
+      </ContainerScroll>
     </section>
   );
 }
